@@ -42,6 +42,7 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+gem 'sassc', '~> 2.1.0'
 
 gem 'guard', '~> 2.18'
 
@@ -49,6 +50,10 @@ gem 'guard', '~> 2.18'
 # gem "image_processing", "~> 1.2"
 
 gem 'minitest-reporters', '~> 1.5'
+gem 'bootstrap-sass', '3.4.1'
+
+
+gem 'rails-controller-testing'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
